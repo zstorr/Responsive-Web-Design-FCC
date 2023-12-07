@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Bullfrog Jiu Jitsu</h1>
+    <p id="description">Please fill out the survey below, and we will be in touch soon</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label for="name-label" id="name-label">Name: <input id="name" name="first-name" type="text" placeholder="enter your name" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="email-label" id="email-label">Email: <input id="email" name="email" type="email" placeholder="enter your email" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="number-label" id="number-label">Phone Number: <input id="number" type="number" name="number" min="1111111111" max="9999999999" placeholder="enter your number here" /></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown-label">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Google</option>
+            <option value="2">Instagram / Facebook</option>
+            <option value="3">Family / Friend</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Do you have any previous grappling experience?</legend>
+        <label for="option1"><input id="option1" type="radio" name="buttons" value="option1" class="inline" checked /> Yes</label>
+        <label for="option2"><input id="option2" type="radio" name="buttons" value="option2" class="inline" /> No</label>
+      </fieldset>
+
+      <fieldset>
+            <legend>What interests you about training Jiu Jitsu?</legend>
+            <input id="a" type="checkbox" name="a" value="a" class="inline" checked> <label for="a"  class="inline">Self Defense</label>
+            <input id="b" type="checkbox" name="b" value="b" class="inline"> <label for="b" class="inline">Health & Fitness</label>
+            <input id="c" type="checkbox" name="c" value="c" class="inline"> <label for="c" class="inline">Competition</label>
+        </fieldset>
+
+        <fieldset>
+          <label for="adcomments">Do you have any specific questions or concerns?
+          <textarea id="adcomments" name="adcomments" rows="5" cols="30" placeholder="Enter your comments here..."></textarea>
+        </label>
+        </fieldset>
+
+        <input type="submit" id="submit" value="Submit" />
+
+
+
+    </form>
+
+  </body>
+</html>

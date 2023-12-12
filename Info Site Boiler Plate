@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+
+    <header>
+      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <h1>Technical Document Page Project</h1>
+      <nav id="navbar">
+        <header>
+          <ul>
+            <li><a accesskey="1" href="#Section1" class="nav-link">Section1</a></li>
+            <li><a accesskey="2" href="#Section2" class="nav-link">Section2</a></li>
+            <li><a accesskey="3" href="#Section3" class="nav-link">Section3</a></li>
+            <li><a accesskey="4" href="#Section4" class="nav-link">Section4</a></li>
+            <li><a accesskey="5" href="#Section5" class="nav-link">Section5</a></li>
+            <li><a accesskey="r" href="#References" class="nav-link">References</a></li>
+          </ul>
+        </header>
+      </nav>
+
+    <main id="main-doc">
+
+      <section class="main-section" id="Section1">
+        <header>Section1</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Section2">
+        <header>Section2</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Section3">
+        <header>Section3</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Section4">
+        <header>Section4</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Section5">
+        <header>Section5</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="References">
+        <header>References</header>
+        <p>All information found here was taken from <a href="https://freecodecamp.org" target="_blank">this site here</a></p>
+      </section>
+
+
+
+    </main>
+  </body>
+
+</html>
